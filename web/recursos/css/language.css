@@ -1,0 +1,62 @@
+/* Language Chooser for User Home (upper right) */
+/* Note this is different than the one used on the home page */
+
+.language-chooser {
+	float: right;
+	width: 120px;
+  z-index: 12;
+	position: relative;
+	font-size: 11px;
+	margin: 10px 0 0 0;
+	font-weight: normal;
+}
+
+.language-chooser .selected-language {
+	padding: 0 8px;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.language-chooser .selected-language a .country-name {
+	color: #666;
+}
+
+.language-chooser a .country-name {
+	vertical-align: top;
+	line-height: 24px;
+}
+
+.language-chooser ul {
+	list-style: none;
+	padding: 0;
+	background: #666;
+	padding: 8px 8px 4px 8px;
+	border-radius: 3px;
+	margin-top: 3px;
+	position: absolute;
+	display: none;
+	float: left;
+	width: 100px;
+}
+
+.language-chooser ul li {
+	margin-bottom: 2px;
+}
+
+.language-chooser a .country-name {
+	text-decoration: none;
+	color: #fff;
+}
+
+.language-chooser a:hover span {
+	text-decoration: underline;
+}
+
+.language-chooser a img {
+	margin-right: 5px;
+	padding-top: 5px;
+}
+
+.language-open ul {
+	display: block;
+}
